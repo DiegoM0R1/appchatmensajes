@@ -1,0 +1,34 @@
+/* src/styles.css */
+.chat-list {
+    width: 25%;
+    float: left;
+}
+
+.chat-window {
+    width: 75%;
+    float: left;
+}
+
+.messages {
+    height: 70vh;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+.message.sent {
+    background-color: #dcf8c6;
+    text-align: right;
+    margin-left: auto;
+}
+
+.message.received {
+    background-color: #ffffff;
+}
